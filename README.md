@@ -1,2 +1,1 @@
-# batch basics
-Entra en un bucle en el que abre la consola
+# Instala/actualiza un modulo para python usando pip
