@@ -1,5 +1,6 @@
 @echo off
-:a
-start cmd
-goto a
+::https://github.com/itscarlos
+set /p module=python module: 
+pip install --upgrade %module%
+pause>nul
 exit
