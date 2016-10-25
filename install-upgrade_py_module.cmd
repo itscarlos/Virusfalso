@@ -6,5 +6,5 @@ set hour=%time:~0,2%
 :a
 set /p module=python module: 
 pip install --upgrade %module%
-echo %day%/%month%/%year%(%hour%h) module: %module%>>modules.txt
+echo %day%/%month%/%year%(%hour%h) module: %module%>>modules.log
 goto a
