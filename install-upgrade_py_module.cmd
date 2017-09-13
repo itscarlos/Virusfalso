@@ -4,7 +4,8 @@ set month=%date:~3,2%
 set day=%date:~0,2% 
 set hour=%time:~0,2% 
 :a
-set /p module=python module: 
+set /p module=python module:
+echo saves the module's name into modules.log
 pip install --upgrade %module%
 echo %day%/%month%/%year%(%hour%h) module: %module%>>modules.log
 goto a
